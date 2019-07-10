@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>The Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Trivia Game</h1>
+        <form id="quiz" name="quiz">
+
+            <p>What is Earth's largest continent?</p>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="AFRICA"> AFRICA<br>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="ASIA"> ASIA<br>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="ANTARCTICA"> ANTARCTICA<br>
+           </label>
+
+            <p>What country has the most natural lakes?</p>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="UNITED STATES"> UNITED STATES<br>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="CANADA"> CANADA<br>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="AUSTRALIA"> AUSTRALIA<br>
+            </label>
+
+            <p>What African country served as the setting for Tatooine in Star Wars?</p>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="ETHIOPIA"> ETHIOPIA<br>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="TUNISIA"> TUNISIA<br>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="GHANA"> GHANA<br>
+            </label>
+
+            <p>What is the oldest city in the world?</p>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="DAMASCUS"> DAMASCUS<br>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="ATHENS"> ATHENS<br>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="ROME"> ROME<br>
+            </label>
+
+            <p>What is the only continent with land in all four hemispheres?</p>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="EUROPE"> EUROPE<br>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="ATHENS"> AFRICA<br>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="question1" id="mc" value="ROME"> AUSTRALIA<br>
+            </label>
+<br>
+<br>
+            <input id="button" type="button" value="I'm Finished" onclick="check();">
+
+        </form>
+    </div>
+    <div id="after_submit">
+        <p id="number_correct"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
